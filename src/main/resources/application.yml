@@ -4,12 +4,3 @@ spring:
       enabled: true
   application:
     name: sample
-
-logging:
-  level:
-    org:
-      apache:
-        hc:
-          client5:
-            http: DEBUG
-            http.wire: DEBUG
